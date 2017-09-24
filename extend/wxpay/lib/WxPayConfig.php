@@ -21,20 +21,20 @@ class WxPayConfig
 	 * 获取地址：https://mp.weixin.qq.com/advanced/advanced?action=dev&t=advanced/dev&token=2005451881&lang=zh_CN
 	 * @var string
 	 */
-	const APPID     = 'wx1487db5afd428a80';
-	const MCHID     = '1487635592';
-	const KEY       = '7bcb0a12132e6f25f21dde908d95f1a7';
-	const APPSECRET = '7bcb0a12132e6f25f21dfb908d95f1a7';
+	const APPID     = '';
+	const MCHID     = '';
+	const KEY       = '';
+	const APPSECRET = '';
 
 	// ======【开发模式与生产模式】===================================
 	/**
 	 * 微信支付需要获取用户的真实ip, 本地开发就需要设定一个固定的IP,
-	 * 处于生产模式, 请务必将次改为false, 用于获取用户真实IP
+	 * 处于生产模式, 请务必将次改为false, 用于获取用户真实IP!!!!
 	 */
-	const WXPAY_DEBUG   = false;
+	const WXPAY_DEBUG   = true;
 
 	//=======【异步通知地址】=====================================
-	const NOTIFY_URL = 'http://test.qiudin.com/notify';
+	const NOTIFY_URL = '';
 
 
 
