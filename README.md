@@ -4,6 +4,7 @@
 - 在默认配置情况下，将文件夹**拷贝到根目录**即可, 其中<code>extend</code>目录为扩展目录
 - 需要在配置文件<code>extend/wxpay/lib/WxPayConfig.php</code>中填写必要的参数
 - 如有退款操作, 请将证书放到<code>extend/wxpay/cert/</code>目录中
+- <code>application/index/Example.php</code>为示例代码
 
 ## 注意
 - 错误采用抛出异常的方式, 可根据自己的业务在统一接口<code>extend/wxpay/lib/WxPayException.php</code>中修改
